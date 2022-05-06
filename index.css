@@ -1,5 +1,16 @@
 /*
 -------------------------
+CUSTOM PROPERTIES
+-------------------------
+*/
+:root {
+  --crl-black: 230, 35%, 7%;
+  --crl-light: 231, 77%, 90%;
+  --crl-white: 0, 0%, 100%;
+}
+
+/*
+-------------------------
 RESET | OVERRIDES 
 -------------------------
 */
@@ -85,4 +96,24 @@ UTILITY CLASSES
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* Colors */
+.bg-dark {
+  background-color: hsl(var(--crl-black));
+}
+.bg-accent {
+  background-color: hsl(var(--crl-light));
+}
+.bg-white {
+  background-color: hsl(var(--crl-white));
+}
+.text-dark {
+  color: hsl(var(--crl-black));
+}
+.text-accent {
+  color: hsl(var(--crl-light));
+}
+.text-white {
+  color: hsl(var(--crl-white));
 }
