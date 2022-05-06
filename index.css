@@ -1,0 +1,57 @@
+/*
+-------------------------
+RESET | OVERRIDES 
+-------------------------
+*/
+
+/* Box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset Margins*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+picture,
+figure {
+  margin: 0;
+}
+
+/* Make images easier to deal with */
+img {
+  max-width: 100%;
+  display: blockF;
+}
+
+/* Setup the body */
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* Make form elements easier to work with*/
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+/* Remove animations for people who have turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
