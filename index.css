@@ -27,7 +27,7 @@ figure {
 /* Make images easier to deal with */
 img {
   max-width: 100%;
-  display: blockF;
+  display: block;
 }
 
 /* Setup the body */
